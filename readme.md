@@ -2,6 +2,35 @@
 
 A full-stack **MERN application** (MongoDB, Express, React, Node.js) for exploring, catching, and managing Pokémon. Build teams, rename your catches, and explore the Pokédex using real data from PokéAPI!
 
+## 📸 Screenshots
+
+### Pokémon Explorer
+![Pokémon List with Search and Filter](./docs/screenshots/pokemon-list.png)
+*Browse all Pokémon with search, filter by type, and pagination*
+
+### Catch System
+![Catch Pokémon with Success Rate](./docs/screenshots/catch-pokemon.png)
+*Catch Pokémon with 50% success rate and nickname them instantly*
+
+### My Pokémon Collection
+![Manage Your Caught Pokémon](./docs/screenshots/my-pokemon.png)
+*View, rename, and release your caught Pokémon with sorting options*
+
+### Team Builder
+![Create and Manage Teams](./docs/screenshots/team-builder.png)
+*Build teams with up to 6 Pokémon from your collection*
+
+### Mobile Responsive Design
+![Mobile Responsive Layout](./docs/screenshots/mobile-responsive.png)
+*Fully responsive design works seamlessly on all screen sizes*
+
+**📁 To add screenshots:**
+1. Create a `docs/screenshots/` folder in your project root
+2. Add PNG files: `pokemon-list.png`, `catch-pokemon.png`, `my-pokemon.png`, `team-builder.png`, `mobile-responsive.png`
+3. The images will automatically display in this README
+
+---
+
 ## 🎮 Features
 
 ### Pokémon Exploration
@@ -38,6 +67,30 @@ A full-stack **MERN application** (MongoDB, Express, React, Node.js) for explori
 - MongoDB database for teams
 - Client ID stored in localStorage
 - Persistent across sessions
+
+## 🚀 Live Demo & Deployment
+
+### Run Locally (Recommended)
+```bash
+# Clone the repository
+git clone <your-repo-url>
+cd pokemon
+
+# Start backend
+cd server && npm install && npm run dev
+
+# In a new terminal, start frontend
+cd client && npm install && npm run dev
+
+# Open http://localhost:5173 in your browser
+```
+
+### Deploy to Production
+- **Backend:** Deploy to Heroku, Railway, or Render
+- **Frontend:** Deploy to Vercel, Netlify, or GitHub Pages
+- **Database:** MongoDB Atlas (free tier available)
+
+---
 
 ## 🏗️ Project Structure
 
