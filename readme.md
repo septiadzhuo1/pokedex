@@ -20,14 +20,6 @@ A full-stack **MERN application** (MongoDB, Express, React, Node.js) for explori
 ![Create and Manage Teams](./docs/screenshots/team-builder.png)
 *Build teams with up to 6 Pokémon from your collection*
 
-### Mobile Responsive Design
-![Mobile Responsive Layout](./docs/screenshots/mobile-responsive.png)
-*Fully responsive design works seamlessly on all screen sizes*
-
-**📁 To add screenshots:**
-1. Create a `docs/screenshots/` folder in your project root
-2. Add PNG files: `pokemon-list.png`, `catch-pokemon.png`, `my-pokemon.png`, `team-builder.png`, `mobile-responsive.png`
-3. The images will automatically display in this README
 
 ---
 
